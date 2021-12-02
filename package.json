@@ -1,7 +1,7 @@
 {
   "name": "svga-preview",
   "description": "create a svga preview",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "Qing Lin",
   "license": "MIT",
   "main": "dist/svga-preview.common.js",

@@ -2,8 +2,10 @@
 
 
 ## example
-####  import Poster from 'svga-preview'
+####  
 ```
+  import SvgaPreview from 'svga-preview'
+  ....
   <svga-preview 
     :url="url" 
     :id="id" 
