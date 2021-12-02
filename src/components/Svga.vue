@@ -8,7 +8,7 @@ export default {
   props: ['url', 'id'],
   data () {
     return {
-      w: 150,
+      w: 0,
       h: 0
     }
   },

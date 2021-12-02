@@ -219,12 +219,12 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"025c84ce-vue-loader-template"}!./node_modules/_vue-loader@15.9.8@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--1-0!./node_modules/_vue-loader@15.9.8@vue-loader/lib??vue-loader-options!./src/components/Svga.vue?vue&type=template&id=6b8ca578&
+// CONCATENATED MODULE: ./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"025c84ce-vue-loader-template"}!./node_modules/_vue-loader@15.9.8@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--1-0!./node_modules/_vue-loader@15.9.8@vue-loader/lib??vue-loader-options!./src/components/Svga.vue?vue&type=template&id=309a6d60&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{style:({height:_vm.h,width:_vm.w}),attrs:{"id":'preview-canvas-'+_vm.id}})}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Svga.vue?vue&type=template&id=6b8ca578&
+// CONCATENATED MODULE: ./src/components/Svga.vue?vue&type=template&id=309a6d60&
 
 // CONCATENATED MODULE: ./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--13-0!./node_modules/_thread-loader@2.1.3@thread-loader/dist/cjs.js!./node_modules/_babel-loader@8.2.3@babel-loader/lib!./node_modules/_cache-loader@4.1.0@cache-loader/dist/cjs.js??ref--1-0!./node_modules/_vue-loader@15.9.8@vue-loader/lib??vue-loader-options!./src/components/Svga.vue?vue&type=script&lang=js&
 //
@@ -237,7 +237,7 @@ var SVGA = __webpack_require__("2ae9");
   props: ['url', 'id'],
   data: function data() {
     return {
-      w: 150,
+      w: 0,
       h: 0
     };
   },
