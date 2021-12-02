@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1>svga 预览工具</h1>
-    <a href="https://github.com/lancer07/vue-qr-poster  " style="position:absolute;right:0;top:0">
+    <a href="https://github.com/lancer07/svga-preview" style="position:absolute;right:0;top:0">
       <img :src="fork" style="width:200px"/>
     </a>
     <svga-preview :url="url" :id="id" style="margin:0 auto;"></svga-preview>
